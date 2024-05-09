@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.input-group, .output-group {
+    margin-bottom: 15px;
+}
+
+.input-group label, .output-group label {
+    display: inline-block;
+    width: 78px;
+    margin: 0 auto;
+    text-align: center; /* Centra il testo all'interno della label */
+}
+
+
+.input-group input[type="text"], .output-group input[type="text"] {
+    width: 400px;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    width: calc(50% - 10px); /* Riduciamo lo spazio tra i pulsanti */
+    margin: 0 auto; /* Centra i pulsanti orizzontalmente */
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:nth-child(2n) {
+    float: right;
+}

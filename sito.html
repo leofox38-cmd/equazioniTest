@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RisolviEquazione</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/enter.js" defer></script>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Calcolatrice per equazioni di secondo grado</h1>
+        <div class="input-group">
+            <label for="valore1">x^2:</label>
+            <input type="text" id="valore1" placeholder="Inserisci a">
+        </div>
+        <div class="input-group">
+            <label for="valore2">x:</label>
+            <input type="text" id="valore2" placeholder="Inserisci b">
+        </div>
+        <div class="input-group">
+            <label for="valore3">c:</label>
+            <input type="text" id="valore3" placeholder="Inserisci c">
+        </div>
+        <button onclick="Equazione()">Calcola</button></br>
+        <button onclick="Reset()">Reset</button></br>
+        <div class="output-group">
+            <label for="risultato1">x1:</label>
+            <input type="text" id="risultato1" value="" readonly>
+        </div>
+        <div class="output-group">
+            <label for="risultato2">x2:</label>
+            <input type="text" id="risultato2" value="" readonly>
+        </div>
+    </div>
+</body>
+</html>
