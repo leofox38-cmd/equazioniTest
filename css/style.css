@@ -34,7 +34,7 @@ h1 {
     width: 400px;
     margin: 0 auto;
     padding: 5px;
-    border: 1px solid hsl(0, 100%, 50%);
+    border: 1px solid #ccc;
     border-radius: 5px;
 }
 
